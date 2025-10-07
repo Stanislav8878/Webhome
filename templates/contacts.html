@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Контакты</title>
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+</head>
+<body>
+<div class="d-flex">
+  <div class="bg-dark text-white p-3 d-flex flex-column" style="width: 250px; height: 100vh;">
+    <h5 class="mb-4">🅱 Меню</h5>
+    <ul class="nav flex-column mb-auto">
+      <li class="nav-item"><a href="/" class="nav-link text-white">Главная</a></li>
+      <li class="nav-item"><a href="/catalog" class="nav-link text-white">Каталог</a></li>
+      <li class="nav-item"><a href="/category" class="nav-link text-white">Категории</a></li>
+      <li class="nav-item"><a href="/contacts" class="nav-link text-white active bg-primary rounded">Контакты</a></li>
+    </ul>
+  </div>
+
+  <div class="p-4 flex-grow-1">
+    <h1>Контакты</h1>
+    <div class="row mt-4">
+      <div class="col-md-6">
+        <form method="post" action="/contacts">
+          <div class="mb-3">
+            <label for="name" class="form-label">Имя</label>
+            <input type="text" class="form-control" id="name" name="name" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Почта</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Сообщение</label>
+            <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Отправить</button>
+        </form>
+      </div>
+      <div class="col-md-6">
+        <h5>Наши контакты</h5>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <p>
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="/css/bootstrap.bundle.min.js"></script>
+</body>
+</html>
