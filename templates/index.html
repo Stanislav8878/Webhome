@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Главная</title>
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+</head>
+<body>
+<div class="d-flex">
+  <!-- Боковое меню -->
+  <div class="bg-dark text-white p-3 d-flex flex-column" style="width: 250px; height: 100vh;">
+    <h5 class="mb-4">🅱 Меню</h5>
+    <ul class="nav flex-column mb-auto">
+      <li class="nav-item"><a href="/" class="nav-link text-white active bg-primary rounded">Главная</a></li>
+      <li class="nav-item"><a href="/catalog" class="nav-link text-white">Каталог</a></li>
+      <li class="nav-item"><a href="/category" class="nav-link text-white">Категории</a></li>
+      <li class="nav-item"><a href="/contacts" class="nav-link text-white">Контакты</a></li>
+    </ul>
+    <div class="dropdown mt-auto">
+      <a href="#" class="text-white dropdown-toggle" data-bs-toggle="dropdown">Пользователь</a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Профиль</a></li>
+        <li><a class="dropdown-item" href="#">Выход</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Контент -->
+  <div class="p-4 flex-grow-1">
+    <h1>Главная</h1>
+    <p>Вы находитесь на сайте, предназначенном для продажи товаров.</p>
+
+    <div class="row mt-4">
+      <div class="col-md-4 mb-3">
+        <div class="card text-center">
+          <div class="card-body">
+            <h5 class="card-title">Товар 1</h5>
+            <p class="card-text fs-4">$100</p>
+            <p>10 users included, 2 GB of storage,<br>Email support, Help center access</p>
+            <a href="#" class="btn btn-outline-primary">Купить</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="card text-center">
+          <div class="card-body">
+            <h5 class="card-title">Товар 2</h5>
+            <p class="card-text fs-4">$200</p>
+            <p>15 users included, 5 GB of storage,<br>Email support, Help center access</p>
+            <a href="#" class="btn btn-outline-primary">Купить</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="card text-center">
+          <div class="card-body">
+            <h5 class="card-title">Товар 3</h5>
+            <p class="card-text fs-4">$300</p>
+            <p>20 users included, 10 GB of storage,<br>Email support, Help center access</p>
+            <a href="#" class="btn btn-outline-primary">Купить</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="/css/bootstrap.bundle.min.js"></script>
+</body>
+</html>

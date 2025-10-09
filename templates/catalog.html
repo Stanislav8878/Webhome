@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Каталог</title>
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+</head>
+<body>
+<div class="d-flex">
+  <div class="bg-dark text-white p-3 d-flex flex-column" style="width: 250px; height: 100vh;">
+    <h5 class="mb-4">🅱 Меню</h5>
+    <ul class="nav flex-column mb-auto">
+      <li class="nav-item"><a href="/" class="nav-link text-white">Главная</a></li>
+      <li class="nav-item"><a href="/catalog" class="nav-link text-white active bg-primary rounded">Каталог</a></li>
+      <li class="nav-item"><a href="/category" class="nav-link text-white">Категории</a></li>
+      <li class="nav-item"><a href="/contacts" class="nav-link text-white">Контакты</a></li>
+    </ul>
+  </div>
+
+  <div class="p-4 flex-grow-1">
+    <h1>Каталог</h1>
+    <div class="row mt-4">
+      <div class="col-md-6 mb-4">
+        <div class="card shadow-sm">
+          <div class="card-img-top bg-secondary text-white text-center py-5">Thumbnail</div>
+          <div class="card-body">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+              </div>
+              <small class="text-muted">9 mins</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- можно добавить ещё карточки -->
+    </div>
+  </div>
+</div>
+<script src="/css/bootstrap.bundle.min.js"></script>
+</body>
+</html>
